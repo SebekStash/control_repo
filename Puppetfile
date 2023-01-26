@@ -1,6 +1,3 @@
 mod 'puppet/nginx'
 mod 'puppetlabs/stdlib'
 mod 'puppetlabs/concat'
-mod 'puppetlabs-selinux_core', '1.2.0'
-mod 'puppetlabs-inifile', '5.4.0'
-mod 'southalc-podman', '0.6.3'
