@@ -1,15 +1,16 @@
 node default {
-  file { '/root/README':
-    ensure => file,
-    content => 'To jest pliczek czytajmie\n',
-    owner   => 'root',
-  }
-  file {'/root/DodatkowyPlik':
-    ensure => file,
-    content => 'plik nr2',
-    owner => 'root',
-    mode => '400',
-  }
+  command { 'echo "las"': }
+  # file { '/root/README':
+  #   ensure => file,
+  #   content => 'To jest pliczek czytajmie\n',
+  #   owner   => 'root',
+  # }
+  # file {'/root/DodatkowyPlik':
+  #   ensure => file,
+  #   content => 'plik nr2',
+  #   owner => 'root',
+  #   mode => '400',
+  # }
 }
 # node default {
 #   include role::master_server
