@@ -6,7 +6,7 @@ node default {
   }
   file {'/root/DodatkowyPlik':
     ensure => file
-    content => "plik nr2"
+    content => 'plik nr2'
     owner => 'root'
     mode => '400'
   }
