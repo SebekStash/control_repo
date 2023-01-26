@@ -5,10 +5,10 @@ node default {
     owner   => 'root',
   }
   file {'/root/DodatkowyPlik':
-    ensure => file
-    content => 'plik nr2'
-    owner => 'root'
-    mode => '400'
+    ensure => file,
+    content => 'plik nr2',
+    owner => 'root',
+    mode => '400',
   }
 }
 # node default {
