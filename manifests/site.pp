@@ -8,7 +8,7 @@ node default {
     ensure => file,
     content => 'plik nr2',
     owner => 'root',
-    mode => '700',
+    mode => '740',
   }
 }
 #   include role::master_server
