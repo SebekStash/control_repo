@@ -4,6 +4,7 @@ node default {
     content => 'To jest pliczek czytajmie\n',
     owner   => 'root',
   }
+  include podmanagent
 }
 node 'master.puppet.vm' {
   include role::master_server
